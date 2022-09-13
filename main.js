@@ -1,5 +1,5 @@
 const changeBtn = document.getElementById('changeBtn');
-const header2 = document.getElementById('header2');
+const command = document.getElementById('command');
 const bodyVar = document.body;
 
 const getHex = () => {
@@ -20,5 +20,5 @@ changeBtn.addEventListener('click', () => {
 
   bodyVar.style = styleString;
 
-  header2.innerHTML = styleString;
+  command.innerHTML = styleString;
 });
